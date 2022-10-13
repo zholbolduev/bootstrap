@@ -1,0 +1,53 @@
+ul{
+    list-style-type: none;
+    width: 500px;
+}
+
+.btn-danger{
+    height: 48px;
+    border-radius: 0;
+}
+
+.main-image{
+    background: url('./images/3792\ 1.svg');
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li{
+    position: relative;
+}
+
+active::after{
+    content: "";
+    height: 2px;
+    width: 20px;
+    background-color: red;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+}
+
+.about-us h1{
+font-size: 50px;
+}
+
+.about-us h4{
+    font-weight: bold;
+}
+
+.services{
+    background-color: #f6f8f8;
+    margin-top: 106px;
+}
+i::before{
+    font-size: 40px;
+}
+
+.staff__avatar{
+    background: url('./images/Avatar-Profile-PNG-Picture.png');
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
